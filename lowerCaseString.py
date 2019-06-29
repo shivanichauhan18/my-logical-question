@@ -10,6 +10,5 @@ def swap_case(s):
             b=b+y
         i=i+1
     return b
-string=input("enter string")
+string=raw_input("enter string ")
 print (swap_case(string))
-if __name__ == '__main__':
